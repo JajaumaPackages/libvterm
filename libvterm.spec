@@ -4,7 +4,7 @@
 
 Name:           lib%{libname}
 Version:        0
-Release:        0.1.bzr%{revision}%{?dist}
+Release:        0.2.bzr%{revision}%{?dist}
 Summary:        An abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator
 
 License:        MIT
@@ -67,5 +67,8 @@ make test CFLAGS="%{optflags}"
 %{_bindir}/%{libname}-dump
 
 %changelog
+* Fri Feb 10 2017 Fedora Release Engineering <releng@fedoraproject.org> - 0-0.2.bzr681
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
+
 * Thu Apr 14 2016 Igor Gnatenko <ignatenko@redhat.com> - 0-0.1.bzr681
 - Initial package
