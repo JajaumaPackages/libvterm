@@ -9,6 +9,12 @@ Summary:        An abstract library implementation of a VT220/xterm/ECMA-48 term
 
 License:        MIT
 URL:            https://launchpad.net/libvterm
+# Upstream D/L link seems to be dead (as of 22.08.2017)
+#
+# Steps to recreate tarball from bazaar:
+# bzr branch lp:libvterm
+# cd libvterm
+# bzr export -r 681 --root ~leonerd/libvterm/trunk ../libvterm-%{revision}.tgz
 Source0:        http://bazaar.launchpad.net/~leonerd/libvterm/trunk/tarball/%{revision}/%{name}-%{revision}.tgz
 
 BuildRequires:  gcc
